@@ -12,10 +12,7 @@ import java.util.*;
 //import org.apache.commons.codec.DecoderException;
 //import org.apache.commons.codec.binary.Hex;
 
-/**
- *
- * @author edopc
- */
+
 public class Utility {
     
 public static String chainName = "test";

@@ -8,10 +8,6 @@ package multichain;
 import java.io.*;
 import java.util.*;
 
-/**
- *
- * @author edo-4
- */
 public class StartMultichain extends Utility{
     
 	public static void createMultichain( String chainName ) throws IOException, InterruptedException{

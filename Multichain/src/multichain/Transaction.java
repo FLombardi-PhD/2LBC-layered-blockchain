@@ -10,10 +10,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import static multichain.Utility.*;
 
-/**
- *
- * @author edopc
- */
 public class Transaction{
 	
 	public static void sendTransaction(String address, String nameAsset, String units) throws IOException, InterruptedException{

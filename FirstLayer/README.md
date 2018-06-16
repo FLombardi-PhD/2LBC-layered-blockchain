@@ -1,5 +1,5 @@
 MainMiner
-Program Arguments: [ porta RMI, boolean per indicare se è leader, id ]
+Program Arguments: [ port RMI, boolean to indicate if is the leader, id ]
 
 Miner 1
 Program Arguments: 8801 true 1
@@ -14,7 +14,7 @@ Program Arguments: 8803 false 3
 VM Arguments: -Djava.net.preferIPv4Stack=true
 
 MainClient
-Program Arguments: [ porta RMI, prima porta RMI miners, ultima port RMI miners ]
+Program Arguments: [ port RMI, first port RMI miners, last port RMI miners ]
 
 Client1
 Program Arguments: 2001 8801 8803
@@ -25,6 +25,6 @@ Program Arguments: 2002 8801 8803
 VM Arguments: -Djava.net.preferIPv4Stack=true
 
 MainTimeout
-Program Arguments: [ prima porta RMI miners, ultima port RMI miners ]
+Program Arguments: [ first port RMI miners, last port RMI miners ]
 Program Arguments: 8801 8803
 VM Arguments: -Djava.net.preferIPv4Stack=true
